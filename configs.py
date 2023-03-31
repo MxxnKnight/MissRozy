@@ -2,8 +2,8 @@
 import os
 
 class Config(object):
-	API_ID = int(os.environ.get("8706891"))
-	API_HASH = os.environ.get("97b971023fcb9f1d7c327eb0b504ae1d")
+	API_ID = int(os.environ.get('API_ID',"8706891"))
+	API_HASH = os.environ.get('API_HASH',"97b971023fcb9f1d7c327eb0b504ae1d")
 	BOT_TOKEN = os.environ.get("5973079654:AAHioCmVNslVCpT_e3Pw43cxRuHRUIEmctY")
 	BOT_USERNAME = os.environ.get("Moonknight_filestore_bot")
 	DB_CHANNEL = int(os.environ.get("-1001563543558"))
